@@ -11,11 +11,14 @@ let totalDiscount;
 
 if(discountCode === "DESCUENTO10"){
     totalDiscount = totalPay * 0.90;
-    alert("Se aplico un 10% de descuento en su compra. Total a pagar: $ " + totalDiscount.toFixed(2));
+    alert("Se aplico un 10% de descuento en su compra");
+    alert( "Total a pagar: $ " + totalDiscount.toFixed(2))
 }else if (discountCode === "DESCUENTO20"){
     totalDiscount = totalPay * 0.80;
-    alert("Se aplico un 20% de descuento en su compra. Total a pagar: $ " + totalDiscount.toFixed(2));
+    alert("Se aplico un 20% de descuento en su compra");
+    alert( "Total a pagar: $ " + totalDiscount.toFixed(2));
 }else{
-    alert("Codigo de descuento no valido. Total a pagar: $" + totalPay.toFixed(2));
+    alert("Codigo de descuento no valido");
+    alert("Total a pagar: $" + totalPay.toFixed(2));
 }
 
